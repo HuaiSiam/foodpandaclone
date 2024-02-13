@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filter{
+    &-pink{
+        filter: brightness(0) saturate(100%) invert(18%) sepia(54%) saturate(5353%) hue-rotate(321deg) brightness(100%) contrast(90%);
+    }
+
+    &-white{
+        filter: brightness(0) saturate(100%) invert(99%) sepia(5%) saturate(16%) hue-rotate(206deg) brightness(107%) contrast(100%);
+    }
+}
+
+.text-oneellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
